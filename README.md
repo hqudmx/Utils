@@ -10,3 +10,8 @@ DiologUtil.java
 
 4,可以设置点击外部区域不消失
 
+TitleBarView.java封装了标题栏
+
+CameraPreview 封装了相机预览
+
+BluerBitmap 实现背景模糊效果
