@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 标题模板自定义属性 -->
+    <declare-styleable name="TitleUtil">
+        <!-- 标题文案 -->
+        <attr name="titleText" format="string"/>
+        <!-- 是否有back按钮 -->
+        <attr name="canBack" format="boolean"/>
+        <!-- back按钮文案 -->
+        <attr name="backText" format="string"/>
+        <!-- 右侧更多功能按钮文字 -->
+        <attr name="moreText" format="string"/>
+        <!-- 背景颜色 -->
+        <attr name="backgroundColor" format="color"/>
+    </declare-styleable>
+    <declare-styleable name="CameraBridgeViewBase">
+        <attr name="show_fps" format="boolean"/>
+        <attr name="camera_id" format="integer">
+            <enum name="any" value="-1"/>
+            <enum name="back" value="99"/>
+            <enum name="front" value="98"/>
+        </attr>
+    </declare-styleable>
+</resources>
